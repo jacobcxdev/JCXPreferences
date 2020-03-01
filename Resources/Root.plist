@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cellClass</key>
+			<string>JCXGradientHeaderCell</string>
+			<key>subtitle</key>
+			<string>By {Author} — v{Version}</string>
+			<key>icon</key>
+			<string>icon.png</string>
+			<key>colors</key>
+			<string>#E30613,#621E34,#312783,#166A90,#00A19A</string>
+			<key>animated</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Main Preferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.yourcompany.yourpackage</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer</string>
+			<key>footerText</key>
+			<string>Copyright © 2020 JacobCXDev. All rights reserved.</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>JCXTwitterCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter!</string>
+			<key>username</key>
+			<string>jcxdev</string>
+			<key>shouldDisplayAvatar</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>JCXPayPalCell</string>
+			<key>label</key>
+			<string>Donate to me :)</string>
+			<key>username</key>
+			<string>jacobcxdev</string>
+			<key>shouldDisplayAvatar</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>JCXPreferences</string>
+</dict>
+</plist>
