@@ -77,7 +77,6 @@
             
             [_gradientLayer addAnimation:animationGroup forKey:@"JCXAnimation"];
         }
-        }
 
         if (specifier.properties[@"icon"]) _icon = [UIImage imageNamed:specifier.properties[@"icon"] inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil];
         if (_icon) {
