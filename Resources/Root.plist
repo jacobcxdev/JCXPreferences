@@ -66,7 +66,7 @@
         </dict>
         <dict>
             <key>cellClass</key>
-            <string>iDUCashAppCell</string>
+            <string>JCXCashAppCell</string>
             <key>label</key>
             <string>Donate to me via CashApp</string>
             <key>cashTag</key>
@@ -81,6 +81,16 @@
             <string>Email me for support</string>
             <key>emailAddress</key>
             <string>jacobcxdev@gmail.com</string>
+            <key>shouldDisplayAvatar</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>cellClass</key>
+            <string>JCXGitHubCell</string>
+            <key>label</key>
+            <string>View the source code on GitHub</string>
+            <key>remote</key>
+            <string>jacobcxdev/JCXPreferences</string>
             <key>shouldDisplayAvatar</key>
             <true/>
         </dict>
