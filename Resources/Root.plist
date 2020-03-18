@@ -23,12 +23,12 @@
             <string>Main Preferences</string>
         </dict>
         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
+            <key>cellClass</key>
+            <string>iDUSwitchTableCell</string>
             <key>default</key>
             <true/>
             <key>defaults</key>
-            <string>com.yourcompany.yourpackage</string>
+            <string>com.jacobcxdev.jcxpreferences</string>
             <key>key</key>
             <string>enabled</string>
             <key>label</key>
