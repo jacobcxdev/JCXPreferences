@@ -1,7 +1,6 @@
 #import "JCXTableCell.h"
 
-@interface JCXGradientHeaderCellBlurContentView : UIView
-{
+@interface JCXGradientHeaderCellBlurContentView : UIView {
     CAShapeLayer *_borderLayer;
 }
 @end
