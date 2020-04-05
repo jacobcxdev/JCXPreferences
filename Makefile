@@ -1,3 +1,6 @@
+export ARCHS = arm64 arm64e
+export TARGET = iphone::11.0:latest
+
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = JCXPreferences
