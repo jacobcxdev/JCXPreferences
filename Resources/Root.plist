@@ -23,8 +23,8 @@
 			<string>Main Preferences</string>
 		</dict>
 		<dict>
-			<key>cellClass</key>
-			<string>JCXSwitchTableCell</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
@@ -34,6 +34,14 @@
 			<key>label</key>
 			<string>Enabled</string>
 		</dict>
+        <dict>
+            <key>cellClass</key>
+            <string>JCXDisclosureCell</string>
+            <key>action</key>
+            <string>pushViewController</string>
+            <key>label</key>
+            <string>Push View Controller</string>
+        </dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
